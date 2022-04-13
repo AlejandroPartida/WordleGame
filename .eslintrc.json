@@ -21,6 +21,10 @@
         "react/jsx-filename-extension": "off",
         "linebreak-style": ["error", "windows"],
         "react/jsx-indent": [2, "tab", {"checkAttributes": true, "indentLogicalExpressions": true}],
-        "no-tabs": "off"
+        "no-tabs": "off",
+        "react/function-component-definition": [true, {
+            "namedComponents": "arrow-function",
+            "functionComponents": "arrow-function"
+        }]
     }
 }
